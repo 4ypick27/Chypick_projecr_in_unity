@@ -575,7 +575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 249740618}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 583999750}
+        m_TargetAssemblyTypeName: AnketaScript, Assembly-CSharp
+        m_MethodName: OnButtonUserName
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &249740618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1053,6 +1065,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a7dd232c4c13c3468fa6a24c9bbf8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameInputField: {fileID: 30586000}
+  nameText: {fileID: 1915341813}
+  ageInputField: {fileID: 780406454}
+  ageText: {fileID: 740726961}
 --- !u!1 &740726959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,7 +1216,7 @@ GameObject:
   - component: {fileID: 780406455}
   - component: {fileID: 780406454}
   m_Layer: 5
-  m_Name: InputNameInputField
+  m_Name: InputAgeInputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1480,7 +1496,7 @@ GameObject:
   - component: {fileID: 849804112}
   - component: {fileID: 849804111}
   m_Layer: 5
-  m_Name: OutputAgePanel
+  m_Name: OutputNamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1949,7 +1965,7 @@ GameObject:
   - component: {fileID: 1192008616}
   - component: {fileID: 1192008615}
   m_Layer: 5
-  m_Name: OutputNamePanel
+  m_Name: OutputAgePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2187,7 +2203,7 @@ GameObject:
   - component: {fileID: 1253442623}
   - component: {fileID: 1253442622}
   m_Layer: 5
-  m_Name: InputNameButton
+  m_Name: InputAgeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2256,7 +2272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1253442623}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 583999750}
+        m_TargetAssemblyTypeName: AnketaScript, Assembly-CSharp
+        m_MethodName: OnButtonUserAge
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1253442623
 MonoBehaviour:
   m_ObjectHideFlags: 0

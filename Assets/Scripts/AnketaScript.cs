@@ -1,18 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMP;
+using TMPro;
 
 public class AnketaScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public TMP_InputField NameInputField;
-    public TMP_Text nametext;
 
-
-    // Update is called once per frame
+    public TMP_InputField nameInputField;
+    public TMP_Text nameText;
+    public TMP_InputField ageInputField;
+    public TMP_Text ageText;
     public void OnButtonUserName()
     {
-        nametext.text = NameInputFieldText;
+        nameText.text = nameInputField.text;
+    }
+    public void OnButtonUserAge()
+    {
+        string ageString = ageInputField.text;
     }
 }
