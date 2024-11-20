@@ -1066,9 +1066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 30586000}
-  nameText: {fileID: 1915341813}
+  nameTmpText: {fileID: 1915341813}
   ageInputField: {fileID: 780406454}
-  ageText: {fileID: 740726961}
+  ageTmpText: {fileID: 1919320253}
 --- !u!1 &740726959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,7 +3210,7 @@ GameObject:
   - component: {fileID: 1919320254}
   - component: {fileID: 1919320253}
   m_Layer: 5
-  m_Name: OutputNameText
+  m_Name: OutputAgeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
